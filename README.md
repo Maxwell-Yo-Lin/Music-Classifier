@@ -1,13 +1,14 @@
 # Music-Classifier
-MusicGenreClassifier
+
 A Python program that utilizes the k-nearest neighbors algorithm (k-NN) in order to classify wav files into various music genres. This program was initially made for HackUCI 2018, so it is not very robust.
 
-Getting Started
+# Getting Started
 This program requires a few libraries. It requires that Scipy is installed. We used Anaconda 2 during the development of this project. It also utilizes python_speech_features, which can be installed as such:
 
 To install from pypi::
 
-pip install python_speech_features
+  pip install python_speech_features
+
 From this repository::
 
 git clone https://github.com/jameslyons/python_speech_features
