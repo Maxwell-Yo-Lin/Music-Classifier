@@ -14,8 +14,8 @@ From this repository::
 git clone https://github.com/jameslyons/python_speech_features
 python setup.py develop
 ```
-# Running the classifier
-# Creating the training data
+# Running the classifier #
+## Creating the training data  ##
 
 This program requires training data in the form of .wav files. These will be placed into a directory named Music. Within this directory, songs will be categorized by genre for the the program to read. These files will then be preprocessed and turned into data that the classifier can read. This data will be written in SongData.txt. A default SongData.txt with sample test data from a few genres is included.
 
@@ -28,9 +28,10 @@ to
 ```
 #classify.py
 PREPROCESS = False #if True, it will preprocess the data
-This doing this will shorten the runtime of the program, as the preprocess phase can take a long time on large data sets.
 ```
-# Predicting Song Genres
+This doing this will shorten the runtime of the program, as the preprocess phase can take a long time on large data sets.
+
+## Predicting Song Genres ##
 
 Once the learner is given adequate training data, it can attempt to interpolate the genre of a song. To do this, place all .wav files in a directory titled "predictions". You can now run the program from classifier.py.
 
