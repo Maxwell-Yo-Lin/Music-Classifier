@@ -33,7 +33,7 @@ This doing this will shorten the runtime of the program, as the preprocess phase
 
 ## Predicting Song Genres ##
 
-Once the learner is given adequate training data, it can attempt to interpolate the genre of a song. To do this, place all .wav files in a directory titled "predictions". You can now run the program from classifier.py. Here i have provided a few samples of songs to predict.
+Once the learner is given adequate training data, it can attempt to interpolate the genre of a song. To do this, place all .wav files in a directory titled "predictions". You can now run the program from classifier.py. Here I have provided a few samples of songs to predict.
 
 Once all of the input songs are classified, it will create a text file titled "predictions.txt" with the names of the files and their predicted genres.
 
